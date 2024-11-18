@@ -1,4 +1,4 @@
-# Android device tree for motorola moto g play - 2024 (fogona)
+# Android device tree for motorola moto g play - 2024 (RETUS/fogona)
 
 ```
 #
