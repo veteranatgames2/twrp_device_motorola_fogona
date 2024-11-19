@@ -18,14 +18,23 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-PRODUCT_PACKAGES += \
-    bootctrl.bengal
+#comment out temporarily
+#PRODUCT_PACKAGES += \
+#    bootctrl.bengal
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#try this shit
+PRODUCT_PACKAGES := \
     bootctrl.bengal \
     libgptutils \
     libz \
     libcutils
+
+#comment this shit out to try and stop an error
+#PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#    bootctrl.bengal \
+#    libgptutils \
+#    libz \
+#    libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
